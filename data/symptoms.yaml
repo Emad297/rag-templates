@@ -1,0 +1,137 @@
+- category: General Symptoms
+  symptoms:
+    - name: Fever
+      description: Elevated body temperature, usually above 100.4°F (38°C).
+      medical_practice: General Practice, Internal Medicine, Pediatrics
+      possible_treatments:
+        - Antipyretics (e.g., ibuprofen, acetaminophen)
+        - Rest
+        - Hydration
+        - Treating the underlying cause
+
+    - name: Headache
+      description: Pain or discomfort in the head, scalp, or neck area.
+      medical_practice: General Practice, Neurology
+      possible_treatments:
+        - Pain relievers (acetaminophen, ibuprofen)
+        - Rest in a quiet, dark room
+        - Hydration
+        - Stress management
+
+    - name: Fatigue
+      description: Persistent tiredness or lack of energy that doesn't improve with rest.
+      medical_practice: General Practice, Internal Medicine
+      possible_treatments:
+        - Adequate sleep
+        - Regular exercise
+        - Balanced nutrition
+        - Stress reduction
+        - Treating underlying conditions
+
+- category: Respiratory Symptoms
+  symptoms:
+    - name: Nasal Congestion/Runny Nose
+      description: Stuffy nose due to inflamed nasal passages or a dripping nose with mucus discharge.
+      medical_practice: General Practice, ENT (Otolaryngology), Allergy & Immunology
+      possible_treatments:
+        - Saline nasal rinses
+        - Decongestants (oral or nasal sprays)
+        - Antihistamines (for allergies)
+        - Humidifiers
+        - Treating underlying cause (e.g., cold, allergies)
+
+    - name: Cough
+      description: Sudden expulsion of air from the lungs, often to clear the respiratory tract.
+      medical_practice: General Practice, Pulmonology
+      possible_treatments:
+        - Cough suppressants or expectorants
+        - Throat lozenges
+        - Honey and warm liquids
+        - Humidifiers
+        - Treating underlying infection or condition
+
+    - name: Sore Throat
+      description: Pain, irritation, or scratchiness in the throat, often made worse by swallowing.
+      medical_practice: General Practice, ENT (Otolaryngology)
+      possible_treatments:
+        - Throat lozenges/sprays
+        - Warm salt water gargles
+        - Pain relievers (e.g., acetaminophen, ibuprofen)
+        - Hydration
+        - Treating underlying cause (e.g., cold, allergies)
+
+- category: Digestive Symptoms
+  symptoms:
+    - name: Nausea
+      description: Feeling of sickness with an inclination to vomit.
+      medical_practice: General Practice, Gastroenterology
+      possible_treatments:
+        - Anti-nausea medications
+        - Small, frequent meals
+        - Avoiding strong odors
+        - Ginger or peppermint
+        - Hydration
+
+    - name: Stomach Pain
+      description: Discomfort or pain in the abdominal area.
+      medical_practice: General Practice, Gastroenterology
+      possible_treatments:
+        - Antacids or acid reducers
+        - Heat therapy
+        - Avoiding trigger foods
+        - Hydration
+        - Treating underlying condition
+
+    - name: Diarrhea
+      description: Loose, watery stools occurring more frequently than normal.
+      medical_practice: General Practice, Gastroenterology
+      possible_treatments:
+        - Fluid replacement therapy
+        - BRAT diet (bananas, rice, applesauce, toast)
+        - Anti-diarrheal medications
+        - Probiotics
+        - Avoiding dairy and fatty foods
+
+- category: Neurological Symptoms
+  symptoms:
+    - name: Dizziness/Vertigo
+      description: Feeling lightheaded, unsteady, or experiencing a sensation that the room is spinning.
+      medical_practice: General Practice, Neurology, ENT (Otolaryngology)
+      possible_treatments:
+        - Vestibular rehabilitation
+        - Medications to reduce nausea or dizziness
+        - Avoiding sudden movements
+        - Hydration
+        - Treating underlying cause
+
+    - name: Memory Problems
+      description: Difficulty remembering recent events, names, or familiar tasks.
+      medical_practice: Neurology, Psychiatry, General Practice
+      possible_treatments:
+        - Cognitive therapy
+        - Mental exercises and brain training
+        - Adequate sleep
+        - Stress reduction
+        - Treating underlying conditions
+
+- category: Skin Symptoms
+  symptoms:
+    - name: Itching
+      description: An uncomfortable sensation that makes you want to scratch, often without visible skin changes.
+      medical_practice: Dermatology, General Practice, Allergy & Immunology
+      possible_treatments:
+        - Topical anti-itch creams or lotions
+        - Antihistamines
+        - Cool compresses
+        - Avoiding known irritants
+        - Moisturizing regularly
+
+    - name: Rash
+      description: Changes in skin color, texture, or appearance, often with redness or bumps.
+      medical_practice: Dermatology, General Practice, Allergy & Immunology
+      possible_treatments:
+        - Topical corticosteroids
+        - Antihistamines
+        - Cool compresses
+        - Avoiding known triggers
+        - Keeping skin clean and dry

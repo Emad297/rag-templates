@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    container_name: surrealdb-graphrag
+    ports:
+      - "8000:8000"
+    environment:
+      - RUST_LOG=info
+    command: >
+      start
+      --auth
+      --user root
+      --pass root
+      --bind 0.0.0.0:8000
+      file:/data/database.db
+    volumes:
+      - surrealdb_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  surrealdb_data:
+    driver: local
